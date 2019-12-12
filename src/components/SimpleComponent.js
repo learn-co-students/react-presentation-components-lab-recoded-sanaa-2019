@@ -1,6 +1,6 @@
-/ Code SimpleComponent Here
+// Code SimpleComponent Here
 import React, { Component } from "react";
-//
+
 export default class SimpleComponent extends Component {
  constructor() {
     super();
@@ -8,19 +8,7 @@ export default class SimpleComponent extends Component {
        mood:"happy"
     };
   }
-//  handleClick = () => {
-//    if(this.state.mood==happy){
-//      this.setState({
-//        this.mood:'sad'
-//      });
-//    }
-//
-// else {
-//   this.setState({
-//     mood:'happy'
-//   });
-// }
-//   }
+
 handleClick = () => {
  const mood = this.state.mood;
   if (mood === "happy") {
